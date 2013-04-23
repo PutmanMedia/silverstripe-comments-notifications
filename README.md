@@ -12,7 +12,7 @@ This mobule provides simple email notifications for page comments
 
 ## Requirements
 
- * SilverStripe 3.1
+ * SilverStripe 3.0
  * PHP 5.3
  * Comments module - <https://github.com/silverstripe/silverstripe-comments>
 
