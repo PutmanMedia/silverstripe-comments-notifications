@@ -9,7 +9,7 @@ class SiteConfigCommentsNotificationsExtension extends DataExtension {
 		if(CommentsNotifications::configure_siteconfig()) {
 			$fields->addFieldToTab(
 				'Root.CommentNotifications', 
-				new EmailField('CommentNotificationEmail', 'Comment Notification Email', null, 255)
+				new TextField('CommentNotificationEmail', 'Comment Notification Email', null, 255)
 			);
 		}
 	}
